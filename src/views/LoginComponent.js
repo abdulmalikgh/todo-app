@@ -47,7 +47,7 @@ export default function Login() {
                 <div className='col-md-12'>
                     <div className='card'>
                         <div className='card-header'>
-                            <h2 className='text-center'> Todo App </h2>
+                            <h2 className='text-center' style={{'color':'#000'}}> Todo App </h2>
                         </div>
                         <div className='card-body'>
                             <form onSubmit={handleSubmit}>
