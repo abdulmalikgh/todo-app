@@ -1,4 +1,4 @@
-import { DELETE_TODO, ADD_TODO, EDIT_TODO } from './const'
+import { DELETE_TODO, ADD_TODO } from './const'
 export default function todoApp(state = [], action) {
     switch(action.type) {
         case ADD_TODO:

@@ -1,4 +1,4 @@
-import { DELETE_TODO, ADD_TODO, EDIT_TODO } from './const'
+import { DELETE_TODO, ADD_TODO } from './const'
 let nextTodoId = 0
 export function addTodo(todo) {
     return {
